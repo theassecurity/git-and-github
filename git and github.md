@@ -53,5 +53,15 @@ git checkout -b branch_name
 cd branch_name
 git push -u origin branch_name
 ````
+###### Make the pull request 
+````
+Go on github
+Click on Pull Request
+Click on Create Pull Request 
+Write any comment if you want to
+Click on Create Pull Request
+````
+###### You have successfully made the pull request :smile:
+
 
 
