@@ -18,7 +18,7 @@ git init
 ###### Set username and password 
 ````
 git config --global user.name “github username”
-git config --global user.password  “email address”
+git config --global user.password “github password”
 ````
 ###### Put the files or folder and add it
 ````
