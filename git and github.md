@@ -14,4 +14,44 @@ cd Project
 ````
 git init 
 ````
+#### How to add files in the folder
+````
+touch project.txt
+````
+#### What is a Pull Request ?
+
+###### Pull requests are a way of contributing your code changes to an open source project
+###### Go to github -> Fork the repo in which you want to contribute
+###### Open that repo in your profile , go to the code and copy it
+###### Open git bash and write the commands given below 
+
+#### Commands 
+###### Set username and password 
+````
+git config --global user.name “github username”
+git config --global user.password  “email address”
+````
+###### Go into the directory where you want to clone the repo
+````
+git clone <paste the copied url>
+````
+###### Do the desired changes and add it 
+````
+git add .
+````
+###### Commit the changes 
+````
+git commit -m "Message"
+````
+###### Push the changes in the master branch
+````
+git push -u origin master 
+````
+###### If you want to make a branch 
+````
+git checkout -b branch_name
+cd branch_name
+git push -u origin branch_name
+````
+
 
