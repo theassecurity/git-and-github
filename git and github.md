@@ -4,26 +4,47 @@
 
 ###### Github is a git repository hosting service. It provides a Web based graphical interface
 
-#### How to make a local git repository 
+#### Make a New Repository
 ````
-cd Documents
-mkdir Project 
-cd Project 
+Go on github 
+CLick on new 
+Write Repository name 
+Click on create repository
 ````
-#### How to initialize the git repository
+#### Initialize the github repository 
 ````
 git init 
 ````
-#### How to add files in the folder
+###### Set username and password 
 ````
-touch project.txt
+git config --global user.name “github username”
+git config --global user.password  “email address”
 ````
-#### What is a Pull Request ?
+###### Put the files or folder and add it
+````
+git add .
+````
+###### Commit the changes 
+````
+git commit -m "Message"
+````
+###### Push the changes in the master branch
+````
+git push -u origin master 
+````
+###### If you want to make a branch 
+````
+git checkout -b branch_name
+cd branch_name
+git push -u origin branch_name
+````
+
+#### If you want to contribute in some open source project, you can do that by making a pull request
 
 ###### Pull requests are a way of contributing your code changes to an open source project
 ###### Go to github -> Fork the repo in which you want to contribute
 ###### Open that repo in your profile , go to the code and copy it
-###### Open git bash and write the commands given below 
+###### Open git bash and write the commands given below. Commands are same what we have already seen above
 
 #### Commands 
 ###### Set username and password 
