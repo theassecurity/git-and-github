@@ -61,7 +61,7 @@ Click on Create Pull Request
 Write any comment if you want to
 Click on Create Pull Request
 ````
-###### You have successfully made the pull request :smile:
+###### Congratulations, You have successfully made the pull request :smile:
 
 
 
