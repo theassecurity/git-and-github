@@ -9,11 +9,9 @@
 cd Documents
 mkdir Project 
 cd Project 
-
 ````
 #### How to initialize the git repository
 ````
 git init 
-
 ````
 
